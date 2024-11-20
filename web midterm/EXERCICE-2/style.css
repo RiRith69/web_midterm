@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  border: 1px solid green;
+  width: 50%;
+  height: 30vh;
+  display: grid;
+}
+.header_tab {
+  border: 1px solid gray;
+  background-color: darkgreen;
+  display: flex;
+  justify-content: space-around;
+  color: aliceblue;
+}
+.width_tab {
+  border: 1px solid gray;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-around;
+}
+.height_tab {
+  border: 1px solid gray;
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-around;
+}
+.dept_tab {
+  border: 1px solid gray;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-around;
+}
+.weight_tab {
+  border: 1px solid gray;
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-around;
+}
